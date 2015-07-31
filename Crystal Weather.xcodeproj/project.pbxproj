@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		407A317C1B6B17B100ADEA47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 407A317B1B6B17B100ADEA47 /* main.m */; };
+		407A317F1B6B17B100ADEA47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 407A317E1B6B17B100ADEA47 /* AppDelegate.m */; };
+		407A31821B6B17B100ADEA47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407A31811B6B17B100ADEA47 /* ViewController.m */; };
+		407A31851B6B17B100ADEA47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407A31831B6B17B100ADEA47 /* Main.storyboard */; };
+		407A31871B6B17B100ADEA47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407A31861B6B17B100ADEA47 /* Images.xcassets */; };
+		407A318A1B6B17B100ADEA47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 407A31881B6B17B100ADEA47 /* LaunchScreen.xib */; };
+		407A31961B6B17B100ADEA47 /* Crystal_WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 407A31951B6B17B100ADEA47 /* Crystal_WeatherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		407A31901B6B17B100ADEA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 407A316E1B6B17B100ADEA47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 407A31751B6B17B100ADEA47;
+			remoteInfo = "Crystal Weather";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		407A31761B6B17B100ADEA47 /* Crystal Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crystal Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		407A317A1B6B17B100ADEA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407A317B1B6B17B100ADEA47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		407A317D1B6B17B100ADEA47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		407A317E1B6B17B100ADEA47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		407A31801B6B17B100ADEA47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		407A31811B6B17B100ADEA47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		407A31841B6B17B100ADEA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		407A31861B6B17B100ADEA47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		407A31891B6B17B100ADEA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		407A318F1B6B17B100ADEA47 /* Crystal WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crystal WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		407A31941B6B17B100ADEA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407A31951B6B17B100ADEA47 /* Crystal_WeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crystal_WeatherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		407A31731B6B17B100ADEA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407A318C1B6B17B100ADEA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		407A316D1B6B17B100ADEA47 = {
+			isa = PBXGroup;
+			children = (
+				407A31781B6B17B100ADEA47 /* Crystal Weather */,
+				407A31921B6B17B100ADEA47 /* Crystal WeatherTests */,
+				407A31771B6B17B100ADEA47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		407A31771B6B17B100ADEA47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				407A31761B6B17B100ADEA47 /* Crystal Weather.app */,
+				407A318F1B6B17B100ADEA47 /* Crystal WeatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		407A31781B6B17B100ADEA47 /* Crystal Weather */ = {
+			isa = PBXGroup;
+			children = (
+				407A317D1B6B17B100ADEA47 /* AppDelegate.h */,
+				407A317E1B6B17B100ADEA47 /* AppDelegate.m */,
+				407A31801B6B17B100ADEA47 /* ViewController.h */,
+				407A31811B6B17B100ADEA47 /* ViewController.m */,
+				407A31831B6B17B100ADEA47 /* Main.storyboard */,
+				407A31861B6B17B100ADEA47 /* Images.xcassets */,
+				407A31881B6B17B100ADEA47 /* LaunchScreen.xib */,
+				407A31791B6B17B100ADEA47 /* Supporting Files */,
+			);
+			path = "Crystal Weather";
+			sourceTree = "<group>";
+		};
+		407A31791B6B17B100ADEA47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				407A317A1B6B17B100ADEA47 /* Info.plist */,
+				407A317B1B6B17B100ADEA47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		407A31921B6B17B100ADEA47 /* Crystal WeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				407A31951B6B17B100ADEA47 /* Crystal_WeatherTests.m */,
+				407A31931B6B17B100ADEA47 /* Supporting Files */,
+			);
+			path = "Crystal WeatherTests";
+			sourceTree = "<group>";
+		};
+		407A31931B6B17B100ADEA47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				407A31941B6B17B100ADEA47 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		407A31751B6B17B100ADEA47 /* Crystal Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 407A31991B6B17B100ADEA47 /* Build configuration list for PBXNativeTarget "Crystal Weather" */;
+			buildPhases = (
+				407A31721B6B17B100ADEA47 /* Sources */,
+				407A31731B6B17B100ADEA47 /* Frameworks */,
+				407A31741B6B17B100ADEA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crystal Weather";
+			productName = "Crystal Weather";
+			productReference = 407A31761B6B17B100ADEA47 /* Crystal Weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		407A318E1B6B17B100ADEA47 /* Crystal WeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 407A319C1B6B17B100ADEA47 /* Build configuration list for PBXNativeTarget "Crystal WeatherTests" */;
+			buildPhases = (
+				407A318B1B6B17B100ADEA47 /* Sources */,
+				407A318C1B6B17B100ADEA47 /* Frameworks */,
+				407A318D1B6B17B100ADEA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				407A31911B6B17B100ADEA47 /* PBXTargetDependency */,
+			);
+			name = "Crystal WeatherTests";
+			productName = "Crystal WeatherTests";
+			productReference = 407A318F1B6B17B100ADEA47 /* Crystal WeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		407A316E1B6B17B100ADEA47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Klaus Cheung";
+				TargetAttributes = {
+					407A31751B6B17B100ADEA47 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					407A318E1B6B17B100ADEA47 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 407A31751B6B17B100ADEA47;
+					};
+				};
+			};
+			buildConfigurationList = 407A31711B6B17B100ADEA47 /* Build configuration list for PBXProject "Crystal Weather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 407A316D1B6B17B100ADEA47;
+			productRefGroup = 407A31771B6B17B100ADEA47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				407A31751B6B17B100ADEA47 /* Crystal Weather */,
+				407A318E1B6B17B100ADEA47 /* Crystal WeatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		407A31741B6B17B100ADEA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407A31851B6B17B100ADEA47 /* Main.storyboard in Resources */,
+				407A318A1B6B17B100ADEA47 /* LaunchScreen.xib in Resources */,
+				407A31871B6B17B100ADEA47 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407A318D1B6B17B100ADEA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		407A31721B6B17B100ADEA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407A31821B6B17B100ADEA47 /* ViewController.m in Sources */,
+				407A317F1B6B17B100ADEA47 /* AppDelegate.m in Sources */,
+				407A317C1B6B17B100ADEA47 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407A318B1B6B17B100ADEA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407A31961B6B17B100ADEA47 /* Crystal_WeatherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		407A31911B6B17B100ADEA47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 407A31751B6B17B100ADEA47 /* Crystal Weather */;
+			targetProxy = 407A31901B6B17B100ADEA47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		407A31831B6B17B100ADEA47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				407A31841B6B17B100ADEA47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		407A31881B6B17B100ADEA47 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				407A31891B6B17B100ADEA47 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		407A31971B6B17B100ADEA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		407A31981B6B17B100ADEA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		407A319A1B6B17B100ADEA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crystal Weather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		407A319B1B6B17B100ADEA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crystal Weather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		407A319D1B6B17B100ADEA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Crystal WeatherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crystal Weather.app/Crystal Weather";
+			};
+			name = Debug;
+		};
+		407A319E1B6B17B100ADEA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Crystal WeatherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crystal Weather.app/Crystal Weather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		407A31711B6B17B100ADEA47 /* Build configuration list for PBXProject "Crystal Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407A31971B6B17B100ADEA47 /* Debug */,
+				407A31981B6B17B100ADEA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		407A31991B6B17B100ADEA47 /* Build configuration list for PBXNativeTarget "Crystal Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407A319A1B6B17B100ADEA47 /* Debug */,
+				407A319B1B6B17B100ADEA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		407A319C1B6B17B100ADEA47 /* Build configuration list for PBXNativeTarget "Crystal WeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407A319D1B6B17B100ADEA47 /* Debug */,
+				407A319E1B6B17B100ADEA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 407A316E1B6B17B100ADEA47 /* Project object */;
+}
